@@ -39,7 +39,7 @@ export default function HomePage() {
   }, []);
 
   function handleSuccess() {
-    setSuccessMsg("🎉 Appointment booked successfully!");
+    setSuccessMsg("🎉 Appointment booked");
     setTimeout(() => setSuccessMsg(""), 4000);
   }
 
